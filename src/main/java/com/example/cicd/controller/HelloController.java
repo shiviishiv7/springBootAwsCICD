@@ -21,7 +21,7 @@ public class HelloController {
     @GetMapping("/world2")
     public Map<String,String> helloWorld2(){
         Map<String,String> map = new HashMap<>();
-        map.put("shiv","Hello Wolr2d");
+        map.put("shiv","Hello Wolrd2");
         return map;
     }
 
