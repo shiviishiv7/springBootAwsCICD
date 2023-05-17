@@ -25,4 +25,11 @@ public class HelloController {
         return map;
     }
 
+    @GetMapping("/home")
+    public Map<String,String> home(){
+        Map<String,String> map = new HashMap<>();
+        map.put("shiv","Hello home");
+        return map;
+    }
+
 }
